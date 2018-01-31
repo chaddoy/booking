@@ -3,6 +3,7 @@ import './styles.js';
 
 import Header from 'components/Header';
 import HomeCarousel from 'components/HomeCarousel';
+import Footer from 'components/Footer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <HomeCarousel />
+        <Footer />
       </div>
     );
   }
