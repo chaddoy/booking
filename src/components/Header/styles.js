@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components';
-import { colors } from 'global-colors.js';
+import { colors } from 'global-colors';
 
 injectGlobal`
   .bk-header {

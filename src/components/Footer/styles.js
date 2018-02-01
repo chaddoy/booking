@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components';
-import { colors } from 'global-colors.js';
+import { colors } from 'global-colors';
 
 injectGlobal`
   .bk-footer {
@@ -11,6 +11,12 @@ injectGlobal`
       margin: auto;
       padding-top: 10px;
       padding-bottom: 50px;
+
+      .bk-footer-links {
+        &:hover {
+          color: white !important;
+        }
+      }
     }
   }
 `;

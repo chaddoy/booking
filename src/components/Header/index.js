@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './styles.js';
-import { Layout, Menu, Input } from 'antd';
 import BKLogo from 'images/bk-logo.png';
+import { Layout, Menu, Input } from 'antd';
+import './styles';
 
 const Search = Input.Search;
 
