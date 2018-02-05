@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 import { Icon } from 'antd';
 import './styles';
-import { colors } from 'global-colors';
 import { SOCIAL_MEDIAS } from './constants';
 
-import Header from 'components/Header';
 import HomeCarousel from 'components/HomeCarousel';
 import BookInquiry from 'components/BookInquiry';
 import Map from 'components/Map';
-import Footer from 'components/Footer';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Header />
         <HomeCarousel />
 
         <div className="bk-content">
@@ -51,8 +47,6 @@ class Home extends Component {
             </div>
           </center>
         </div>
-
-        <Footer />
       </div>
     );
   }

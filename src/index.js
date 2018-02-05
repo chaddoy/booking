@@ -1,9 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './global-styles.js';
-import 'antd/dist/antd.css';
-import App from 'containers/App';
+import { BrowserRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Styles
+import './global-styles.js';
+import 'antd/dist/antd.css';
+
+// Containers
+import App from 'containers/App';
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+, document.getElementById('root'));
 registerServiceWorker();

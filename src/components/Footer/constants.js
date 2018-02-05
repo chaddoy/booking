@@ -11,14 +11,14 @@ export const MAP_LINKS = [ {
 
 export const SOCIAL_MEDIAS = [ {
   'name': 'twitter',
-  'color': '#444444'
+  'color': '#AAAAAA'
 }, {
   'name': 'facebook',
-  'color': '#444444'
+  'color': '#AAAAAA'
 }, {
   'name': 'youtube',
-  'color': '#444444'
+  'color': '#AAAAAA'
 }, {
   'name': 'google-plus',
-  'color': '#444444'
+  'color': '#AAAAAA'
 } ];
