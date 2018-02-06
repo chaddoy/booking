@@ -14,6 +14,18 @@ injectGlobal`
     font-family: sans-serif;
   }
 
+  .bk-pull-left {
+    float: left;
+  }
+
+  .bk-pull-right {
+    float: right;
+  }
+
+  .bk-clear {
+    clear: both;
+  }
+
   .bk-font-bignoddle {
     font-family: BigNoddle;
   }
@@ -35,8 +47,8 @@ injectGlobal`
   }
 
   .bk-content-container {
-    &.bk-bg-lightgrey {
-      background-color: ${colors.bkLightGrey};
+    &.bk-bg-white {
+      background-color: white;
     }
   }
 

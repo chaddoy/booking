@@ -12,7 +12,12 @@ injectGlobal`
       padding-top: 10px;
       padding-bottom: 50px;
 
-      .bk-footer-links {
+      .bk-map-links {
+        list-style: none;
+        padding: 0px;
+      }
+
+      .bk-social-icons {
         &:hover {
           color: white !important;
         }

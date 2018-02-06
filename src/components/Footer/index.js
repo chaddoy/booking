@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Layout, Row, Col, Icon } from 'antd';
 import './styles';
-import { MAP_LINKS, SOCIAL_MEDIAS } from './constants';
+import { SOCIAL_MEDIAS } from './constants';
+import { HEADER_NAVS } from 'components/Header/constants';
 
 class Footer extends Component {
   render() {
@@ -10,11 +11,11 @@ class Footer extends Component {
         <div className="bk-footer-content">
           <Row>
             <Col span={4}>
-              <ul style={{ listStyle: 'none' }}>
-                {MAP_LINKS.map( ( item, key ) => (
+              <ul className="bk-map-links">
+                {HEADER_NAVS.map( ( item, key ) => (
                   <li key={key}>
                     <h3 className="bk-font-bignoddle bk-color-white">
-                      {item.title}
+                      {item.name}
                     </h3>
                   </li>
                 ) )}
@@ -28,7 +29,7 @@ class Footer extends Component {
                 {SOCIAL_MEDIAS.map( ( media, key ) => (
                   <Icon
                     key={key}
-                    className="bk-margin mrg-5 mrg-all bk-cursor pointer bk-footer-links"
+                    className="bk-margin mrg-5 mrg-all bk-cursor pointer bk-social-icons"
                     type={media.name}
                     style={{ fontSize: '20px', color: media.color }}
                   />
